@@ -1,0 +1,91 @@
+{
+    margin: 0;
+}
+
+body {
+    background: aqua;
+}
+
+.header {
+    background: green;
+    width: 130%;
+    height: 200px;
+}
+
+.nav {
+    background: red;
+    width: 130%;
+    height: 180px;
+}
+header {
+
+background-color: #f80202;
+
+color: yellow;
+
+padding: 10px;
+
+}
+
+header img {
+
+height: 50px;
+
+}
+
+nav ul {
+
+list-style: none;
+
+display: flex;
+
+justify-content: space-around;
+
+}
+
+nav a {
+
+color: white;
+
+font-size: 30PX;
+
+text-decoration: none;
+
+padding: 10px 15px;
+
+}
+
+
+.main {
+    background: yellow;
+    width: 130%;
+    height: calc(100vh - 200px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    background: orange;
+    width: 50%;
+    height: 100%;
+}
+
+.aside {
+    background: orange;
+    width: 50%;
+    height: 100%;
+}
+
+.footer {
+    background-image: url('/storage/emulated/0/Android/Extraño/FOOTER.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90px; /* Ajusta el tamaño según necesites */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Ajusta según la legibilidad */
+}
